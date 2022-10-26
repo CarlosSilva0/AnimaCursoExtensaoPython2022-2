@@ -12,14 +12,3 @@ print(nome)
 print(f'Minha idade é {idade} anos')
 #quando eu quiser exibir 'Meu nome é... e tenho... anos, trocando pelas variáveis nome e idade
 print ('Meu nome é {} e tenho {} anos'.format(nome, idade)) 
-
-#AULA 2
-#permite que o usuário digite algo
-nome = input('Digite seu nome: ') 
-
-idade = int(input('Digite a sua idade: '))
-
-dobro = idade *2
-print ('O dobro da idade informada {}'.format(dobro))
-
-      
