@@ -1,17 +1,10 @@
-#AULA 2
-#permite que o usuário digite algo
-nome = input('Digite seu nome: ') 
+# Uma nota de (0 a 10) se o aluno tirou 10 escreva "Você é bichão mesmo
 
-idade = int(input('Digite a sua idade: '))
-genero = input('Qual é o seu gênero M:Masculino, F:Feminino, O=Outro: ')
-dobro = idade *2
-print ('O dobro da idade informada {}'.format(dobro))
+nome =input ('Escreva seu nome: ')
+nota =float(input('Digite sua nota: ')) 
 
-#estrutura condicional (IF) 
-if idade>=18:
-  print('Você é maior de idade já pode dirigir') 
+if nota ==10:
+  print(f'{nome}, você é o bichão mesmo')
 else:
-  print("você é menor de idade melhor tomar leitinho")
-if idade >=18 and genero == "M":
-  print("Você precisa servir o exercito")
+  print ('BURRO')
   
